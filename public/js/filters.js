@@ -50,6 +50,8 @@ const showFilterData = (data) => {
 
           mainArticles.appendChild(article);      
         }
+        const paginate = document.getElementsByClassName("paginate")[0];
+        paginate.style.display = "none";
       }
       else {
         let noDataDiv = document.createElement("div");
